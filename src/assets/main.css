@@ -1,0 +1,9 @@
+/*groovy header font with accompanying body font*/
+
+.noteContainer {
+   /* display: grid;
+    grid-template-columns: repeat(5, 1fr); */
+   display: flex;
+   flex-wrap: wrap;
+    margin: 20px;
+}
