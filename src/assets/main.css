@@ -1,9 +1,43 @@
 /*groovy header font with accompanying body font*/
+@import url('https://fonts.googleapis.com/css2?family=Ovo&family=Quattrocento+Sans&display=swap');
 
+*{
+box-sizing: border-box;
+}
+
+
+body {
+font-family: 'Ovo', serif;
+font-family: 'Quattrocento Sans', sans-serif;
+}
 .noteContainer {
-   /* display: grid;
-    grid-template-columns: repeat(5, 1fr); */
-   display: flex;
-   flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    justify-content: center;
+  
     margin: 20px;
+}
+
+#noteform{
+background-color: cyan;
+border: dashed grey 3px;
+}
+
+input {
+    background-color: #F4F7F0;
+}
+
+.noteCard {
+    border: solid 2px red;
+    border-radius: 20px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.editbutton {
+    background-color: yellow;
+    margin: 30px;
 }
